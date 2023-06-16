@@ -1,0 +1,50 @@
+.news-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  margin-top: 20px;
+}
+
+.news-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.news-article {
+  margin-bottom: 20px;
+  width: 50%;
+}
+
+.article-title {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.article-description {
+  font-size: 14px;
+  color: red;
+  margin-bottom: 10px;
+}
+
+.article-link {
+  display: block;
+  color: #1e90ff;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.article-item {
+  width: 20%;
+  border: 2px solid red;
+  border-radius: 5px;
+  margin: 10px;
+  background-color: lightblue;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  list-style: none;
+}
+
+.article-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
